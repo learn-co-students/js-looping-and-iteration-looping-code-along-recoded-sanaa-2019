@@ -13,8 +13,9 @@ return array;
 }
 
 function countdown(cound){
-while (cound > 0 ) {
-  console.log(cound);
-  cound --;
+  let count=cound
+while (count > 0 ) {
+  console.log(count);
+  count--;
 }
 }
